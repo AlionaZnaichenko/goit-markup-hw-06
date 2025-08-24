@@ -884,4 +884,7 @@ a {
   .input-field-email::placeholder {
     color: rgba(255, 255, 255);
   }
+  .input-field-email::placeholder {
+    color: rgba(255, 255, 255);
+  }
 }
