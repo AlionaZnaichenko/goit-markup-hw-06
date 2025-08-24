@@ -839,28 +839,40 @@ a {
   .logo-container-footer {
     margin-bottom: 17.5px;
   }
+
   .container-footer {
-    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    margin: 0 auto;
+    justify-content: center;
   }
 
   .footer-text-container {
-    margin-right: 24px;
+    text-align: left;
   }
+
   .social-footer-text {
     text-align: left;
   }
+
   .footer-text {
     max-width: 264px;
   }
+  .social-media-conteiner {
+    margin: 0;
+  }
+
   .subscribe-conteiner {
-    text-align: none;
+    text-align: left;
   }
   .email-form {
-    display: flex;
+    flex-direction: row;
     gap: 24px;
   }
+
   .input-field-email {
-    width: 288px;
+    width: 264px;
   }
 }
 
@@ -868,10 +880,15 @@ a {
   .page-footer {
     padding: 100px 0;
   }
+
   .container-footer {
+    flex-wrap: nowrap;
     flex-direction: none;
     align-items: baseline;
+    justify-content: none;
+    gap: 0;
   }
+
   .footer-text-container {
     margin-right: 120px;
   }
